@@ -1,5 +1,12 @@
 # The Box
 Cryptography and Bitcoin : Thermal printer + MCU in a standard waterproof box.
+* Bitcoin Wallet printer, including private phrase, Xpub, public address 1 and simple instructions on usage
+* OTP one time pad printer, numeric or alpha (see NC Scout's Guerrilla's Guide to the Boafeng for instructions on how to use)
+* Trigram printer (see NC Scout's Guerrilla's Guide to the Boafeng for instructions on how to use) This option uses a lot of paper. You will need 2 full rolls.
+* Bitcoin Wallet qr code from screen
+* Bitcoin Wallet PBST signer
+* FOSS, airgapped, generic hardware, TRNG, stateless (no memory of keys kept in printer or MCU)
+
 ![The Box](https://github.com/BTCtoolshed/TheBox/blob/main/photos/01.jpeg?raw=true)
 
 # READ this whole page and all instructions before proceeding!!!
@@ -104,6 +111,36 @@ You can see where the blue and green wires seat in the header of the MCU for rec
 Also note the yellow wire.. that is the ground you soldered to the common ground.<br>
 ![The Box](https://github.com/BTCtoolshed/TheBox/blob/main/photos/18.jpeg?raw=true)
 
+Next, we cut our hot/red wires and attach them to switches. 
+
+This one is for the printer. I put that one up top.<br>
+![The Box](https://github.com/BTCtoolshed/TheBox/blob/main/photos/19.jpeg?raw=true)
+
+This one is for the MCU connection to its battery; the battery cable should come with the MCU to plug into the back of the board. I used the bottom switch to connect the wires to. Don't mind the many cuts I made to the wire; my mistake.<br>
+![The Box](https://github.com/BTCtoolshed/TheBox/blob/main/photos/20.jpeg?raw=true)
+
+Lastly, drill a hole in the 3d print for your push button. Take the wires from the button in the very first assembly step and push them through the hole. Solder your button leads, usually diagonal from each other, to each wire. Test and then use marine sealant to glue the button in place.
+
+
+<br><br>
+# OPERATING INSTRUCTIONS
+
+**Charging**
+Connect the usb cables to the usb hub from the shopping list and plug in to a usb charger. You should have in the hub 1) usb C to the MCU 2) the usb Cs of the 9V batteries
+
+!!!Switch for MCU must be in ON position to charge.!!!<br>
+
+**Access Menu**
+* Click once to change quote
+* Click 4 times rapidly (quadruple click) to access main menu
+
+**Menu : after each selection please wait for screen to fully load**
+* Click once to advance one position in the menu
+* Triple click to set the number of prints you wish to make if you are going to choose a Wallet or OTP print. Dots will appear at the bottom of the screen to show how many prints there will be
+* Double click to select an option
+* Six rapid clicks will begin printing Bitcoin Wallets until the paper runs out, and it will keep trying even after you run out until you shut the MCU off
+* Quadruple clicks will reset everything in most cases
+* To hard exit or restart, turn the MCU switch on and off. Note this will not work if you are charging at the same time.
 
 
 
