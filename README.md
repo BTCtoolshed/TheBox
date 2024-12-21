@@ -1,12 +1,11 @@
 # The Box
 Cryptography and Bitcoin : Thermal printer + MCU in a standard waterproof box.
-* Bitcoin Wallet printer, including private phrase, Xpub, public address 1 and simple instructions on usage
+* Bitcoin Wallet printer, including private phrase, Xpub, public address 1 and simple instructions on usage. 
 * OTP one time pad printer, numeric or alpha (see NC Scout's Guerrilla's Guide to the Boafeng for instructions on how to use)
 * Trigram printer (see NC Scout's Guerrilla's Guide to the Boafeng for instructions on how to use) This option uses a lot of paper. You will need 2 full rolls.
 * Bitcoin Wallet qr code from screen
 * Bitcoin Wallet PBST signer
 * FOSS, airgapped, generic hardware, TRNG, stateless (no memory of keys kept in printer or MCU)
-
 ![The Box](https://github.com/BTCtoolshed/TheBox/blob/main/photos/01.jpeg?raw=true)
 
 # READ this whole page and all instructions before proceeding!!!
