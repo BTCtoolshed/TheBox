@@ -1,5 +1,6 @@
 # The Box
 Cryptography and Bitcoin : Thermal printer + MCU in a standard waterproof box.
+![The Box](https://github.com/BTCtoolshed/TheBox/blob/main/Photos/01.jpeg?raw=true)
 
 # READ this whole page and all instructions before proceeding!!!
 
