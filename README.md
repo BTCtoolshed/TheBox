@@ -62,7 +62,7 @@ Wire for external battery<br>
 
 ![The Box](https://github.com/BTCtoolshed/TheBox/blob/main/photos/03.png?raw=true)
 
-I like putting marine sealant on the connection so the wires dont break off from moving the unit around. I use electrical tape to hold the wires in place while it dries. Let it dry for a few hours/overnight before you try doing other steps.
+I like putting marine sealant on the connection so the wires dont break off from moving the unit around. I use electrical tape to hold the wires in place while it dries. Let it dry for a few hours/overnight before you try doing other steps.<br>
 ![The Box](https://github.com/BTCtoolshed/TheBox/blob/main/photos/11.jpeg?raw=true)
 
 Print the 3D Printed Dashboard file in this repo. I suggest printing 2 so you have some spare flat plastic you can use for this next step. Plastic weld to hold the microcontroller using the 3d printer filament. (FYI I suck at 3d print design, I included the source file in case you want to change it in Free Cad)<br>
@@ -79,29 +79,29 @@ Print the 3D Printed Dashboard file in this repo. I suggest printing 2 so you ha
 
 You will need to leave the corner unwelded that corresponds to the header on the MCU unit (the thing that looks like multiple holes in a black rectangle), insert the MCU into your welded brackets, then weld the final one in place.
 
-Don't pay attention to the rest of the stuff in this picture, we haven't gotten to the wiring yet.
+Don't pay attention to the rest of the stuff in this picture, we haven't gotten to the wiring yet.<br>
 ![The Box](https://github.com/BTCtoolshed/TheBox/blob/main/photos/08.jpeg?raw=true)
 
-Now to the final step. Insert your rocker switches and printer. Check the reference photo at the very top for positioning. As with any 3d print, you may need to trim the holes in the 3d printed material. In the end, there will be a bunch of wires that look like this, unless you are much more organized than I am.
+Now to the final step. Insert your rocker switches and printer. Check the reference photo at the very top for positioning. As with any 3d print, you may need to trim the holes in the 3d printed material. In the end, there will be a bunch of wires that look like this, unless you are much more organized than I am.<br>
 ![The Box](https://github.com/BTCtoolshed/TheBox/blob/main/photos/12.jpeg?raw=true)
 
-First, let's connect the 9v batteries. They will be the power supply for the QR204 printer. Keep these fully charged as the printer uses a lot of power.
+First, let's connect the 9v batteries. They will be the power supply for the QR204 printer. Keep these fully charged as the printer uses a lot of power.<br>
 ![The Box](https://github.com/BTCtoolshed/TheBox/blob/main/photos/13.png?raw=true)
 
-Connect the red wire you just soldered to the parallel 9v into the printers power jack. Red to Red. Connect a ground wire as well; I just used an old jumper I had, but you can cut your own. It doesn't have to be yellow.
+Connect the red wire you just soldered to the parallel 9v into the printers power jack. Red to Red. Connect a ground wire as well; I just used an old jumper I had, but you can cut your own. It doesn't have to be yellow.<br>
 ![The Box](https://github.com/BTCtoolshed/TheBox/blob/main/photos/14.jpeg?raw=true)
 
-KEY: Solder all grounds together. Ground from the microcontroller (see below for pinout, or refer to the pic of all wiring shown higher in this section), from the printer (I put 2 grounds - one from power supply, one from serial/comms), from the 9V batteries
+KEY: Solder all grounds together. Ground from the microcontroller (see below for pinout, or refer to the pic of all wiring shown higher in this section), from the printer (I put 2 grounds - one from power supply, one from serial/comms), from the 9V batteries<br>
 ![The Box](https://github.com/BTCtoolshed/TheBox/blob/main/photos/15.jpeg?raw=true)
 
 ![The Box](https://github.com/BTCtoolshed/TheBox/blob/main/photos/16.png?raw=true)
 
-Next, we will connect the communications wiring from the printer to the MCU. Read the bottom of the QR204 printer to see the labels on the 5 pin connector. Pay attention to RX, TX, GND. GND is ground. Here it is helpful to have different colored wires to differentiate RX and TX.
+Next, we will connect the communications wiring from the printer to the MCU. Read the bottom of the QR204 printer to see the labels on the 5 pin connector. Pay attention to RX, TX, GND. GND is ground. Here it is helpful to have different colored wires to differentiate RX and TX.<br>
 ![The Box](https://github.com/BTCtoolshed/TheBox/blob/main/photos/17.jpeg?raw=true)
 
 You can see where the blue and green wires seat in the header of the MCU for receiving and transmission. If on startup the printer doesn't make a noise or if printing doesn't work, you likely have these wires mixed up.
 
-Also note the yellow wire.. that is the ground you soldered to the common ground.
+Also note the yellow wire.. that is the ground you soldered to the common ground.<br>
 ![The Box](https://github.com/BTCtoolshed/TheBox/blob/main/photos/18.jpeg?raw=true)
 
 
