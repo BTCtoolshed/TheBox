@@ -83,3 +83,5 @@ Don't pay attention to the rest of the stuff in this picture, we haven't gotten 
 Now to the final step. Insert your rocker switches and printer. Check the reference photo at the very top for positioning. As with any 3d print, you may need to trim the holes in the 3d printed material. In the end, there will be a bunch of wires that look like this, unless you are much more organized than I am.
 ![The Box](https://github.com/BTCtoolshed/TheBox/blob/main/photos/12.jpeg?raw=true)
 
+First, let's connect the 9v batteries. They will be the power supply for the QR204 printer. Keep these fully charged as the printer uses a lot of power.
+![The Box](https://github.com/BTCtoolshed/TheBox/blob/main/photos/13.png?raw=true)
