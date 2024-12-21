@@ -51,7 +51,7 @@ Example of an esp32 device connected via COM port 9: python esptool.py -p COM9 -
 **2nd installation option : The way of pain in the Arduino IDE**
 Read the .ino file appropriate for your Featherwing in the repository, especially the comments in the header. I do not have the time to support other boards or setups, unfortunately, other than the Adafruit ESP32 v2 Feather and eInk FeatherWing 2.9". If you are new to Arduino IDE, checkout https://randomnerdtutorials.com/ for ESP32 programming tutorials. You will need to know how to install new libraries and program an ESP32 for this project. Why am I not making this easier? You should have to read code in order to trust what you are doing when it comes to Hardware Wallets.
 
-Make sure you also view Adafruit for basic instructions on installing libraries for the ThinkInk feather and/or Nano Thermal Printer. I do not follow Adafruit's power instructions on the thermal printer though, preferring a 1amp DC power source instead of a 2amp that would require a logic stepdown chip to prevent burning out the 3.3v ESP32 board. Instead you can use the 1amp power source but adjust certain settings in the libraries as noted in the .ino file and also plug the thermal printer in for 15 minutes or so to let it heat up before printing.
+Make sure you google basic instructions on installing libraries for the LilyGo T5 4.7 and Qr204 Thermal Printer. You can use Adafruit thermal printer library. There are special instructions in the ino file itself for an adjustment you need to make for the QR Code library. Also, you need to add two files to the LilyGo EPD library : trigrams.h and opensans12b.h ; view the PNG with the label "MCU Settings.png" to see where to put these files.
 
 Thermal printing is great for setting up burner wallets - for tipping servers for example. This wallet will produce airgapped, truly random private bitcoin keys. Although ESP32s have a native function for generating true random numbers that has been evaluated by others as being truly random, I advise you to only use this for creating temporary use wallets. Bitcoin Core remains the gold standard in random key generation for bitcoin wallets.
 
@@ -59,6 +59,8 @@ In full transparency, this is where the private keys are generated. esp_random i
 ![Randomization](https://github.com/BTCtoolshed/TippingWallet/blob/main/Photos/Random.png?raw=true)
 ![Randomization](https://github.com/BTCtoolshed/TippingWallet/blob/main/Photos/Random2.png?raw=true)
 
+<br><br>
+# TEST SOFTWARE
 Before moving on to hardware assembly, try out the programmed unit. Use the button labeled "Sensor" to navigate. Press 1 time for quote change. Press 4 times quickly for hidden menu, wait until the screen has stopped loading. Press 1 time to navigate, wait until the screen has stopped loading. Double-click to select an option, wait until the screen has stopped loading. I would suggest playing with the "no print" wallet to test.
 
 <br><br>
