@@ -94,6 +94,8 @@ Connect the red wire you just soldered to the parallel 9v into the printers powe
 KEY: Solder all grounds together. Ground from the microcontroller (see below for pinout, or refer to the pic of all wiring shown higher in this section), from the printer (I put 2 grounds - one from power supply, one from serial/comms), from the 9V batteries
 ![The Box](https://github.com/BTCtoolshed/TheBox/blob/main/photos/15.jpeg?raw=true)
 
+![The Box](https://github.com/BTCtoolshed/TheBox/blob/main/photos/16.png?raw=true)
+
 
 
 
