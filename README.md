@@ -131,7 +131,7 @@ Lastly, drill a hole in the 3d print for your push button. Take the wires from t
 # OPERATING INSTRUCTIONS
 
 **Charging**
-Connect the usb cables to the usb hub from the shopping list and plug in to a usb charger. You should have in the hub 1) usb C to the MCU 2) the usb Cs of the 9V batteries
+<br>Connect the usb cables to the usb hub from the shopping list and plug in to a usb charger. You should have in the hub 1) usb C to the MCU 2) the usb Cs of the 9V batteries
 
 !!!Switch for MCU must be in ON position to charge.!!!<br>
 
