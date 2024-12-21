@@ -69,6 +69,8 @@ Print the 3D Printed Dashboard file in this repo. I suggest printing 2 so you ha
 
 ![The Box](https://github.com/BTCtoolshed/TheBox/blob/main/photos/06.jpeg?raw=true)
 
+![The Box](https://github.com/BTCtoolshed/TheBox/blob/main/photos/10.gif?raw=true)
+
 You will need to leave the corner unwelded that corresponds to the header on the MCU unit (the thing that looks like multiple holes in a black rectangle), insert the MCU into your welded brackets, then weld the final one in place.
 ![The Box](https://github.com/BTCtoolshed/TheBox/blob/main/photos/08.jpeg?raw=true)
 
