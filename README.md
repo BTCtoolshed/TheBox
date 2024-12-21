@@ -8,17 +8,18 @@ Cryptography and Bitcoin : Thermal printer + MCU in a standard waterproof box.
 <br><br>
 # Shopping List
 * A. LilyGo t5 4.7 v2.3 ESP32-S3 (non touch version, available on Amazon)
-* B. USB-C Data Cable for flashing (Not a regular charging cable! This is specifically a data cable.)
-* C. Mini Rocker Switches (available on Amazon, I chose the Zupayipa)
-* D. Push Button Switch (pick your favorite, must be momentary not latching)
-* E. QR 204 58mm Thermal Printer (available on Amazon, I chose the Xixian)
-* F. 30MM x 58MM Thermal Paper (available on Amazon, coreless is great)
-* G. 2 USB-C chargeable 9v batteries (available on Amazon, I chose the KOOAQQ)
-* H. 2 9V battery connectors (available on Amazon, I chose the VWEICYY)
-* I. USB-hub with at least 2 ports (this will be your charger)
-* J. Marine sealant, electrical tape
-* K. Jumper wire for microcontrollers/small electronics (Adafruit spooled tinned wire is nice) and solder
-* L. Apache 1800 Waterproof Case (Harbor Freight, comparable to Pelican 1150)
+* B. MakerFocus 3.7v 300mAh battery (available on Amazon)
+* C. USB-C Data Cable for flashing (Not a regular charging cable! This is specifically a data cable.)
+* D. Mini Rocker Switches (available on Amazon, I chose the Zupayipa)
+* E. Push Button Switch (pick your favorite, must be momentary not latching)
+* F. QR 204 58mm Thermal Printer (available on Amazon, I chose the Xixian)
+* G. 30MM x 58MM Thermal Paper (available on Amazon, coreless is great)
+* H. 2 USB-C chargeable 9v batteries (available on Amazon, I chose the KOOAQQ)
+* I. 2 9V battery connectors (available on Amazon, I chose the VWEICYY)
+* J. USB-hub with at least 2 ports (this will be your charger)
+* K. Marine sealant, electrical tape
+* L. Jumper wire for microcontrollers/small electronics (Adafruit spooled tinned wire is nice) and solder
+* M. Apache 1800 Waterproof Case (Harbor Freight, comparable to Pelican 1150)
 * *Optional: 2 SD Cards (smallest size in MB possible)
 * You also need a computer with a USB port and with Arduino IDE installed
 
