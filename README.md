@@ -52,6 +52,8 @@ In full transparency, this is where the private keys are generated. esp_random i
 ![Randomization](https://github.com/BTCtoolshed/TippingWallet/blob/main/Photos/Random.png?raw=true)
 ![Randomization](https://github.com/BTCtoolshed/TippingWallet/blob/main/Photos/Random2.png?raw=true)
 
+Before moving on to hardware assembly, try out the programmed unit. Use the button labeled "Sensor" to navigate. Press 1 time for quote change. Press 4 times quickly for hidden menu, wait until the screen has stopped loading. Press 1 time to navigate, wait until the screen has stopped loading. Double-click to select an option, wait until the screen has stopped loading. I would suggest playing with the "no print" wallet to test.
+
 <br><br>
 # HARDWARE ASSEMBLY
 
@@ -85,3 +87,18 @@ Now to the final step. Insert your rocker switches and printer. Check the refere
 
 First, let's connect the 9v batteries. They will be the power supply for the QR204 printer. Keep these fully charged as the printer uses a lot of power.
 ![The Box](https://github.com/BTCtoolshed/TheBox/blob/main/photos/13.png?raw=true)
+
+Connect the red wire you just soldered to the parallel 9v into the printers power jack. Red to Red. Connect a ground wire as well; I just used an old jumper I had, but you can cut your own. It doesn't have to be yellow.
+![The Box](https://github.com/BTCtoolshed/TheBox/blob/main/photos/14.jpeg?raw=true)
+
+KEY: Solder all grounds together. Ground from the microcontroller (see below for pinout, or refer to the pic of all wiring shown higher in this section), from the printer (I put 2 grounds - one from power supply, one from serial/comms), from the 9V batteries
+![The Box](https://github.com/BTCtoolshed/TheBox/blob/main/photos/15.jpeg?raw=true)
+
+
+
+
+
+
+
+
+
