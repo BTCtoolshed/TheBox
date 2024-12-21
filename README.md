@@ -6,6 +6,7 @@ Cryptography and Bitcoin : Thermal printer + MCU in a standard waterproof box.
 * Bitcoin Wallet qr code from screen
 * Bitcoin Wallet PBST signer
 * FOSS, airgapped, generic hardware, TRNG, stateless (no memory of keys kept in printer or MCU)
+* 
 ![The Box](https://github.com/BTCtoolshed/TheBox/blob/main/photos/01.jpeg?raw=true)
 
 # READ this whole page and all instructions before proceeding!!!
@@ -13,6 +14,7 @@ Cryptography and Bitcoin : Thermal printer + MCU in a standard waterproof box.
 
 <br><br>
 # Shopping List
+* You need a computer with a USB port (and likely with with Arduino IDE installed; I use version 1.8.19)
 * A. LilyGo t5 4.7 v2.3 ESP32-S3 (non touch version, available on Amazon)
 * B. MakerFocus 3.7v 300mAh battery (available on Amazon)
 * C. USB-C Data Cable for flashing (Not a regular charging cable! This is specifically a data cable.)
@@ -27,7 +29,7 @@ Cryptography and Bitcoin : Thermal printer + MCU in a standard waterproof box.
 * L. Jumper wire for microcontrollers/small electronics (Adafruit spooled tinned wire is nice) and solder
 * M. Apache 1800 Waterproof Case (Harbor Freight, comparable to Pelican 1150)
 * *Optional: 2 SD Cards (smallest size in MB possible)
-* You also need a computer with a USB port and with Arduino IDE installed
+
 
 <br><br>
 # PROGRAMMING THE MICROCONTROLLER
