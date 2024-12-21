@@ -3,8 +3,7 @@ Cryptography and Bitcoin : Thermal printer + MCU in a standard waterproof box.
 ![The Box](https://github.com/BTCtoolshed/TheBox/blob/main/photos/01.jpeg?raw=true)
 
 # READ this whole page and all instructions before proceeding!!!
-<br>
-** Skill level : You need to be able to strip wires, solder and use a 3d printer.**
+**Skill level : You need to be able to strip wires, solder and use a 3d printer.**
 
 <br><br>
 # Shopping List
