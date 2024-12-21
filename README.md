@@ -79,3 +79,6 @@ You will need to leave the corner unwelded that corresponds to the header on the
 Don't pay attention to the rest of the stuff in this picture, we haven't gotten to the wiring yet.
 ![The Box](https://github.com/BTCtoolshed/TheBox/blob/main/photos/08.jpeg?raw=true)
 
+Now to the final step. Insert your rocker switches and printer. Check the reference photo at the very top for positioning. As with any 3d print, you may need to trim the holes in the 3d printed material. In the end, there will be a bunch of wires that look like this, unless you are much more organized than I am.
+![The Box](https://github.com/BTCtoolshed/TheBox/blob/main/photos/12.jpeg?raw=true)
+
