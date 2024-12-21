@@ -24,7 +24,9 @@ Cryptography and Bitcoin : Thermal printer + MCU in a standard waterproof box.
 * *Optional: 2 SD Cards (smallest size in MB possible)
 * You also need a computer with a USB port and with Arduino IDE installed
 
-<br><br><br>
+<br><br>
+# PROGRAMMING THE MICROCONTROLLER
+<br>
 **1st installation option : Flashing Binary to the ESP32**<br>
 *Warning : By using this option you are trusting I am not a malicious actor and that the software I used to compile this bin was not compromised!!!*
 1) Download the "TheBox.bin" file from this github repository.<br>
