@@ -51,4 +51,9 @@ In full transparency, this is where the private keys are generated. esp_random i
 ![Randomization](https://github.com/BTCtoolshed/TippingWallet/blob/main/Photos/Random.png?raw=true)
 ![Randomization](https://github.com/BTCtoolshed/TippingWallet/blob/main/Photos/Random2.png?raw=true)
 
+<br><br>
+# HARDWARE ASSEMBLY
 
+![The Box](https://github.com/BTCtoolshed/TheBox/blob/main/photos/02.png?raw=true)
+
+![The Box](https://github.com/BTCtoolshed/TheBox/blob/main/photos/03.png?raw=true)
