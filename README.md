@@ -54,22 +54,21 @@ In full transparency, this is where the private keys are generated. esp_random i
 <br><br>
 # HARDWARE ASSEMBLY
 
-Wire for external battery
+Wire for external battery<br>
 ![The Box](https://github.com/BTCtoolshed/TheBox/blob/main/photos/02.png?raw=true)
 
 ![The Box](https://github.com/BTCtoolshed/TheBox/blob/main/photos/03.png?raw=true)
 
-Print the 3D Printed Dashboard file in this repo. I suggest printing 2 so you have some spare flat plastic you can use for this next step. Plastic weld to hold the microcontroller. (FYI I suck at 3d print design, I included the source file in case you want to change it in Free Cad)
-![The Box](https://github.com/BTCtoolshed/TheBox/blob/main/photos/03.png?raw=true)
+Print the 3D Printed Dashboard file in this repo. I suggest printing 2 so you have some spare flat plastic you can use for this next step. Plastic weld to hold the microcontroller. (FYI I suck at 3d print design, I included the source file in case you want to change it in Free Cad)<br>
 
-![The Box](https://github.com/BTCtoolshed/TheBox/blob/main/photos/04.png?raw=true)
+![The Box](https://github.com/BTCtoolshed/TheBox/blob/main/photos/04.jpeg?raw=true)
 
-![The Box](https://github.com/BTCtoolshed/TheBox/blob/main/photos/05.png?raw=true)
+![The Box](https://github.com/BTCtoolshed/TheBox/blob/main/photos/05.jpeg?raw=true)
 
-![The Box](https://github.com/BTCtoolshed/TheBox/blob/main/photos/06.png?raw=true)
+![The Box](https://github.com/BTCtoolshed/TheBox/blob/main/photos/06.jpeg?raw=true)
 
 ![The Box](https://github.com/BTCtoolshed/TheBox/blob/main/photos/07.mov?raw=true)
 
 You will need to leave the corner unwelded that corresponds to the header on the MCU unit (the thing that looks like multiple holes in a black rectangle), insert the MCU into your welded brackets, then weld the final one in place.
-![The Box](https://github.com/BTCtoolshed/TheBox/blob/main/photos/08.png?raw=true)
+![The Box](https://github.com/BTCtoolshed/TheBox/blob/main/photos/08.jpeg?raw=true)
 
