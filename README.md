@@ -96,6 +96,13 @@ KEY: Solder all grounds together. Ground from the microcontroller (see below for
 
 ![The Box](https://github.com/BTCtoolshed/TheBox/blob/main/photos/16.png?raw=true)
 
+Next, we will connect the communications wiring from the printer to the MCU. Read the bottom of the QR204 printer to see the labels on the 5 pin connector. Pay attention to RX, TX, GND. GND is ground. Here it is helpful to have different colored wires to differentiate RX and TX.
+![The Box](https://github.com/BTCtoolshed/TheBox/blob/main/photos/17.jpeg?raw=true)
+
+You can see where the blue and green wires seat in the header of the MCU for receiving and transmission. If on startup the printer doesn't make a noise or if printing doesn't work, you likely have these wires mixed up.
+
+Also note the yellow wire.. that is the ground you soldered to the common ground.
+![The Box](https://github.com/BTCtoolshed/TheBox/blob/main/photos/18.jpeg?raw=true)
 
 
 
