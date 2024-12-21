@@ -26,7 +26,7 @@ Cryptography and Bitcoin : Thermal printer + MCU in a standard waterproof box.
 
 <br><br>
 # PROGRAMMING THE MICROCONTROLLER
-<br>
+
 **1st installation option : Flashing Binary to the ESP32**<br>
 *Warning : By using this option you are trusting I am not a malicious actor and that the software I used to compile this bin was not compromised!!!*
 1) Download the "TheBox.bin" file from this github repository.<br>
