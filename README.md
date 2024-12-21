@@ -59,6 +59,9 @@ Wire for external battery<br>
 
 ![The Box](https://github.com/BTCtoolshed/TheBox/blob/main/photos/03.png?raw=true)
 
+I like putting marine sealant on the connection so the wires dont break off from moving the unit around. I use electrical tape to hold the wires in place while it dries. Let it dry for a few hours/overnight before you try doing other steps.
+![The Box](https://github.com/BTCtoolshed/TheBox/blob/main/photos/11.jpeg?raw=true)
+
 Print the 3D Printed Dashboard file in this repo. I suggest printing 2 so you have some spare flat plastic you can use for this next step. Plastic weld to hold the microcontroller using the 3d printer filament. (FYI I suck at 3d print design, I included the source file in case you want to change it in Free Cad)<br>
 
 ![The Box](https://github.com/BTCtoolshed/TheBox/blob/main/photos/09.jpeg?raw=true)
